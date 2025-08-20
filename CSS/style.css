@@ -36,7 +36,7 @@ nav {
 main {
     height: 87vh;
     width: 100%;
-    background-image: url('../intersection.webp');
+    background-image: url('../images/intersection.webp');
     background-repeat: repeat;
     font-weight: 600;
     font-size: x-large;
@@ -53,4 +53,9 @@ main {
 .content h1 {
     font-size: 70px;
     font-weight: 800;
+}
+.images img{
+    overflow: hidden;
+    width: 342px;
+    height: 500px;
 }
