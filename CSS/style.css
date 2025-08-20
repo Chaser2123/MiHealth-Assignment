@@ -3,3 +3,7 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+header {
+    background-color: aqua;
+    height: 13vh;
+}
