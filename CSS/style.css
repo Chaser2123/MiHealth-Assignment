@@ -5,7 +5,6 @@
 }
 /*Header*/
 header {
-    background-color: aqua;
     height: 13vh;
     width: 100%;
     display: flex;
@@ -34,3 +33,24 @@ nav {
     color: greenyellow;
 }
 /*Content*/
+main {
+    height: 87vh;
+    width: 100%;
+    background-image: url('../intersection.webp');
+    background-repeat: repeat;
+    font-weight: 600;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 56vh;
+}
+.content h1 {
+    font-size: 70px;
+    font-weight: 800;
+}
